@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     textAlign: 'center',
     width: '100%',
     color: '#00ffef',
-    marginTop: '1rem',  
+    marginTop: '4rem',  
     // backgroundColor: '#00ffef',
     fontSize: '2rem',
   },
