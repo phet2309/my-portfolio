@@ -1,0 +1,51 @@
+.root {
+    background-color: #1e1f21;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    /* align-items: center; */
+}
+
+.title {
+    text-align: center;
+    background-color: #1e1f21;
+    color: #00ffef;
+}
+
+.main-title {
+    /* margin-top: auto; */
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.org-title {
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+.element {
+    text-align: center;
+    box-shadow: 0.2rem 0.2rem 0.2rem #00ffef;
+    color: white;
+    background-color: #1e1f21;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #00ffef;
+    width: 20rem;
+    height: auto; 
+}
+
+.element :hover {
+    color: #00ffef;
+}
+
+
+
+.xyz {
+    height: auto;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.margin-set {
+    margin: 0.1rem;
+}

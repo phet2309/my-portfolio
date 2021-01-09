@@ -1,0 +1,61 @@
+.root {
+    background-color: #1e1f21;
+    height: auto;
+    width: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #1e1f21;
+    color: #00ffef;
+}
+
+.focus {
+    /* background-color:#c2e5e0; */
+    background-color:#a8d4cf;
+    margin: 0.3rem;
+    width: 12rem;
+    min-width: 12rem;
+    transition: transform 0.3s;
+    /* align-self: center; */
+}
+
+.focus:hover {
+    transform: scale(1.05);
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon-style {
+    width: 1.5rem;
+    height: 1.rem;
+}
+
+.card-text {
+    margin: .3rem;
+    font-size: .6rem;
+}
+.container {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: auto;
+    /* margin-top: -0.5rem; */
+}
+
+.deck {
+    background-color: #1e1f21;
+}
+
+.row-styles {
+    background-color: red;
+}
