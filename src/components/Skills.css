@@ -1,0 +1,33 @@
+.skill-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    background: black;
+}
+
+#title {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0.5em;
+    color: white;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+.skill-card {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.2em;
+    font-weight: 400;
+    background-color: white;
+    /* border: 2px solid pink; */
+    /* border-radius: 10px; */
+    box-shadow: 0px 40px 77px -17px tomato;
+    margin: 0.2em;
+}

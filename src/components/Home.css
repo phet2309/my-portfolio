@@ -1,0 +1,31 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    font-size: 4rem;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    /* padding-left: 0.5em; */
+}
+
+#role {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    /* padding-left: 1em; */
+}
+
+#descirption {
+    font-size: 1.5rem;
+    margin-top: 0.4em;
+    text-align: center;
+    /* padding-left: 1.5em; */
+}
+
