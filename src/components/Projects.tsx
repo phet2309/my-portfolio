@@ -7,10 +7,10 @@ import  { ProjectType } from '../constants/projects.ts';
 function Projects({title, description, tech, image, link} : ProjectType) {
     return (
         <>
-            <div className="project-container">
-                <h1 id="main-title">Projects</h1>
-                <h1>{ title }</h1>
+            <div id="projects" className="project-container">
+                {/* <h1 id="main-title">Projects</h1> */}
                 <div className="img-container">
+                    <h1 className="project-title">{ title }</h1>
                     <a href={link}>
                         <img src={image} alt="Project Image" />   
                         <div className="text-container">

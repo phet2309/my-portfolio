@@ -1,7 +1,7 @@
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     grid-gap: 1em;
     min-width: 100%;
     min-height: 100%;

@@ -6,20 +6,18 @@ import About from './components/About';
 import Slider from './components/Slider';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-import Blob from './components/Blob';
-import Gl from './components/Gl';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-      <Gl />
-      {/* <Blob size={2} speed={0.2} color="#ff0000" density={0.4} strength={0.2} offset={0.5} /> */}
-      {/* <Navbar />
+      <Navbar />
       <Home />
       <About />
       <Experience />
       <Slider />
-      <Contact /> */}
+      <Contact />
     </>
   )
 }

@@ -5,6 +5,8 @@
     min-height: 80%;
     justify-content: center;
     align-items: center;
+    font-weight: 900;
+    color: whitesmoke;
 }
 
 #name {

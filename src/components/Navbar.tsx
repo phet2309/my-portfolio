@@ -4,6 +4,8 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef, useState, useEffect } from 'react';
 import { gsap, Expo, Power4 } from 'gsap';
+import { Link } from 'react-router-dom';
+
 
 library.add(faBars, faTimes);
 
@@ -58,7 +60,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <span>Het Patel</span>
+        <h3>Het</h3>
         <FontAwesomeIcon
             icon={faBars}
             className="hamburger-icon"
@@ -76,16 +78,16 @@ function Navbar() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

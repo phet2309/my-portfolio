@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 // import { SplitText } from "gsap/SplitText";
 import SplitText from "gsap-trial/SplitText";
+import Blob from './Blob';
 
 
 gsap.registerPlugin(SplitText);
@@ -35,6 +36,7 @@ function Home() {
 
     return (
       <>
+        <Blob />
         <div className="info" ref={infoRef}>
             <p id="name">Hi. I am Het Patel.</p>
             <p id="role">Full Stack Developer</p>
