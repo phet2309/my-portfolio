@@ -7,8 +7,6 @@ import Slider from './components/Slider';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 
 function App() {
   return (

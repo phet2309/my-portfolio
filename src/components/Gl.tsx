@@ -1,8 +1,7 @@
-import React, { useRef, useState, Suspense, useEffect } from "react";
+import React, { useRef, Suspense } from "react";
 import { Canvas, useLoader, useFrame } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { Group } from "three";
-import { OrbitControls } from "@react-three/drei";
 
 interface GltfModelProps {
   modelPath: string;
@@ -40,7 +39,7 @@ const GltfModel: React.FC<GltfModelProps> = ({
   const gltf = useLoader(GLTFLoader, modelPath);
 
   // Subscribe this component to the render-loop, rotate the mesh every frame
-  useFrame((state, delta) => {
+  useFrame(() => {
     if (ref.current) {
       ref.current.rotation.y -= 0.02;
     }

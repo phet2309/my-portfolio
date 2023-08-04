@@ -1,7 +1,7 @@
 import './Skills.css';
 import { skills } from "../constants/skills";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { gsap, Expo, Power1 } from 'gsap';
+import { gsap } from 'gsap';
 import { useEffect, useRef } from 'react';
 
 gsap.registerPlugin(ScrollTrigger);
