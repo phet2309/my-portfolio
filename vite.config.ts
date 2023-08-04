@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(), glsl({
     include: '**/*.glsl', // Set the pattern for GLSL files
   })],
-  base: '/my-portfolio'
+  base: '/Het-Patel'
 })
