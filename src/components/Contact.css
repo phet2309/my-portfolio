@@ -80,7 +80,6 @@
 .contact-left {
     width: 60%;
     height: 100%;
-    cursor: grab;
     align-self: center;
 }
 
@@ -97,6 +96,7 @@
 
     .contact-left {
         width: 100%;
+        height: 30%;
         touch-action: none !important; /* Disable touch action on the WebGL container for smaller screens */
     }
 

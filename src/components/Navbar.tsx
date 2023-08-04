@@ -3,9 +3,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef, useState, useEffect } from 'react';
-import { gsap, Expo, Power4 } from 'gsap';
-import { Link } from 'react-router-dom';
-
+import { gsap, Expo, Power1 } from 'gsap';
+import logoImg from '../assets/images/hp_fin2.png';
 
 library.add(faBars, faTimes);
 
@@ -27,7 +26,7 @@ function Navbar() {
         {
           x: 0,
           opacity: 1,
-          duration: 1,
+          duration: 1.5,
           ease: Expo.easeOut,
         }
       );
@@ -40,7 +39,7 @@ function Navbar() {
         x: '0%',
         opacity: 1,
         duration: 0.5,
-        ease: Power4.easeOut,
+        ease: Power1.easeOut,
         stagger: 0.1,
         delay: 0,
       });
@@ -60,7 +59,8 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <h3>Het</h3>
+        <img src={logoImg} alt="Het" />
+
         <FontAwesomeIcon
             icon={faBars}
             className="hamburger-icon"
@@ -75,19 +75,19 @@ function Navbar() {
         />
         <ul ref={navElements}>
           <li>
-            <a href="#">Home</a>
+            <a className='navbar-list-item' href="#">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a className='navbar-list-item' href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a className='navbar-list-item' href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a className='navbar-list-item' href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a className='navbar-list-item' href="#contact">Contact</a>
           </li>
         </ul>
       </div>

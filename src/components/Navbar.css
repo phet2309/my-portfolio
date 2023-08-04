@@ -35,7 +35,7 @@
 .navbar-overlay li {
     list-style: none;
     text-align: center;
-    margin: 0.7em;
+    margin: 1.2em;
 }
 
 .navbar-overlay li a {
@@ -70,4 +70,38 @@
 .navbar h3 {
     font-size: 1.5rem;
     margin-left: 0.3em;
+}
+
+.navbar img {
+    margin-top: 1.5rem;
+    margin-left: 10px;
+    height: 2.5rem;
+    width: 2rem;
+}
+
+.navbar-overlay .navbar-list-item {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-overlay .navbar-list-item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar-overlay .navbar-list-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar-list-item:hover {
+    color: pink;
 }

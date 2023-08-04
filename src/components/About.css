@@ -23,9 +23,78 @@ img {
     width: 300px;
 }
 
+.about-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link-card {
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.link-card:hover {
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.link-card a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+.link-card:before {
+    content: '';
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    height: 50px;
+    background: linear-gradient(#00ccff, #d500f9);
+    animation: rotate 4s linear infinite;
+    animation-play-state: running;
+}
+
+.link-card:hover:before {
+    cursor: pointer;
+    background: linear-gradient(orange, yellow);
+}
+
+
+.link-card:after {
+    content: '';
+    position: absolute;
+    background: black;
+    inset: 1px;
+} 
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 @media screen and (max-width: 767px) {
     .container {
         display: flex;
         flex-direction: column;
+    }
+
+    .about-links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
