@@ -78,19 +78,19 @@ function Navbar() {
         />
         <ul ref={navElements}>
           <li>
-            <a className='navbar-list-item' href="#">Home</a>
+            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#">Home</a>
           </li>
           <li>
-            <a className='navbar-list-item' href="#about">About</a>
+            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#about">About</a>
           </li>
           <li>
-            <a className='navbar-list-item' href="#experience">Experience</a>
+            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#experience">Experience</a>
           </li>
           <li>
-            <a className='navbar-list-item' href="#projects">Projects</a>
+            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#projects">Projects</a>
           </li>
           <li>
-            <a className='navbar-list-item' href="#contact">Contact</a>
+            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#contact">Contact</a>
           </li>
         </ul>
       </div>
