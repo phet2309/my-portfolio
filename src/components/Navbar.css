@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     background: #222222;
+    overflow: hidden;
     z-index: 1000;
 }
 
@@ -73,10 +74,10 @@
 }
 
 .navbar img {
-    margin-top: 1.5rem;
-    margin-left: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
     height: 2.5rem;
-    width: 2rem;
+    width: 3rem;
 }
 
 .navbar-overlay .navbar-list-item {

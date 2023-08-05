@@ -5,6 +5,7 @@
     color: white;
     display: flex;
     justify-content: flex-end;
+    overflow: hidden;
 }
 
 
@@ -58,7 +59,9 @@
 
 .social-card:hover:before {
     cursor: pointer;
-    animation-play-state: paused; /* Pause the animation on hover */
+    background: linear-gradient(orange, yellow);
+
+    /* animation-play-state: paused; */
 }
 
  .social-card:after {

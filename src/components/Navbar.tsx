@@ -22,18 +22,20 @@ function Navbar() {
         {
           x: -100,
           opacity: 0,
+          zIndex: -1
         },
         {
           x: 0,
           opacity: 1,
           duration: 1.5,
+          zIndex: 1,
           ease: Expo.easeOut,
         }
       );
 
       const letters = navElements.current.querySelectorAll('li');
 
-      gsap.set(letters, { x: '100%', opacity: 0 });
+      gsap.set(letters, { x: '100%', opacity: 0, zIndex: -1 });
 
       timeline.to(letters, {
         x: '0%',
@@ -42,6 +44,7 @@ function Navbar() {
         ease: Power1.easeOut,
         stagger: 0.1,
         delay: 0,
+        zIndex: 1
       });
 
       if (menuClicked) {

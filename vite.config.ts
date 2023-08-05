@@ -4,7 +4,7 @@ import glsl from 'vite-plugin-glsl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Het-Patel',
+  base: './Het-Patel',
   plugins: [react(), glsl({
     include: '**/*.glsl', // Set the pattern for GLSL files
   })]

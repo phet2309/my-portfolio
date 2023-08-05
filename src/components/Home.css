@@ -1,3 +1,8 @@
+@font-face {
+    font-family: melodrama;
+    src: url('../assets/Melodrama-Semibold.woff2');
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -7,27 +12,71 @@
     align-items: center;
     font-weight: 900;
     color: whitesmoke;
+    overflow: hidden;
 }
 
-#name {
+.name {
     font-size: 4rem;
     margin: 0;
     align-items: center;
     text-align: center;
-    /* padding-left: 0.5em; */
+    font-family: melodrama !important;
+    display: flex;
+    /* flex-wrap: wrap; */
 }
 
-#role {
+.role {
     font-size: 2rem;
     margin: 0;
     text-align: center;
+    font-family: melodrama !important;
+    display: flex;
     /* padding-left: 1em; */
 }
 
-#descirption {
+.descirption {
     font-size: 1.5rem;
     margin-top: 0.4em;
     text-align: center;
+    font-family: melodrama !important;
+    display: flex;
     /* padding-left: 1.5em; */
+}
+
+
+@media screen and (max-width: 767px) {
+    .word1 {
+        font-size: 3rem; /* Your desired font size for smaller screens */
+    }
+
+    .word2 {
+        font-size: 1.5rem;
+    }
+
+    .word3 {
+        font-size: 0.7rem;
+    }
+
+    .word4 {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .word1 {
+        font-size: 2rem; /* Your desired font size for smaller screens */
+    }
+
+    .word2 {
+        font-size: 1rem;
+    }
+
+    .word3 {
+        font-size: 0.5rem;
+    }
+
+    .word4 {
+        font-size: 0.5rem;
+    }
 }
 
