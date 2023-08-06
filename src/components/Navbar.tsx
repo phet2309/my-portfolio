@@ -4,7 +4,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef, useState, useEffect } from 'react';
 import { gsap, Expo, Power1 } from 'gsap';
-import logoImg from '../assets/images/hp_fin2.png';
+import logoImg from '/assets/images/hp_fin2.png';
 
 library.add(faBars, faTimes);
 

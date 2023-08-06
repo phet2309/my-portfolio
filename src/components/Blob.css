@@ -7,6 +7,6 @@
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../assets/images/fire_bg.jpg');
+    background-image: url('/assets/images/fire_bg.jpg');
     opacity: 0.5;
 }

@@ -27,7 +27,7 @@ function Blob() {
 function ImagePlane() {
   // const texture = useLoader(TextureLoader, 'src/assets/images/ocen_bg.jpg');
   // const texture = useLoader(TextureLoader, 'src/assets/images/nyc.jpeg');
-  const texture = useLoader(TextureLoader, 'src/assets/images/fire_bg.jpg');
+  const texture = useLoader(TextureLoader, '/assets/images/fire_bg.jpg');
   const meshRef = useRef<THREE.Mesh>(null);
   
   useFrame((state) => {

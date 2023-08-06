@@ -1,6 +1,6 @@
 @font-face {
     font-family: melodrama;
-    src: url('../assets/Melodrama-Semibold.woff2');
+    src: url('/assets/Melodrama-Semibold.woff2');
 }
 
 .info {

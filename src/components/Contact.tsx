@@ -44,7 +44,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-left">
-                    <Gl modelPath={"src/assets/phoenix_bird.glb"} />
+                    <Gl modelPath={"/assets/phoenix_bird.glb"} />
                 </div>
             </div>
         </>
